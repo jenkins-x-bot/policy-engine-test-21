@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.35.241.108:5000/jenkins-x-bot/policy-engine-test-21
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: policy-engine-test-21
